@@ -16,7 +16,7 @@ export class SummaryComponent implements OnInit {
   }
 
   getSummaries() {
-    this.http.get('http://localhost:5000/WeatherForecast').subscribe(response => {
+    this.http.get('http://localhost:5000/api/WeatherForecast').subscribe(response => {
       this.summaries = response;
     }, error => {
       console.log(error);
