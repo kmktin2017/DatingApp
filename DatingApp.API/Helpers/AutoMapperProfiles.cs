@@ -1,3 +1,8 @@
+using System.Security.Cryptography;
+using System.Runtime.Serialization;
+using System.Runtime.InteropServices;
+using System.ComponentModel.Design;
+using System.ComponentModel;
 using System.Linq;
 using AutoMapper;
 using DatingApp.API.Dtos;
@@ -20,6 +25,7 @@ namespace DatingApp.API.Helpers
                 .ForMember(dest => dest.Age, opt =>
                     opt.MapFrom(src => src.DateOfBirth.CalculateAge()));
             CreateMap<Photo, PhotosForDetailedDto>();
+            CreateMap<UserForUpdateDto, User>();
         }
     }
 }
