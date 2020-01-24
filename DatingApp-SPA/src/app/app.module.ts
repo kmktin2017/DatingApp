@@ -26,6 +26,7 @@ import { MemberEditComponent } from './members/member-edit/member-edit.component
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
 import { PreventUnsavedChanges } from './_guards/prevent-unsaved-changes.guard';
 import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
+import { ValueComponent } from './value/value.component';
 
 export function tokenGetter() {
    return localStorage.getItem('token');
@@ -50,7 +51,8 @@ export class CustomHammerConfig extends HammerGestureConfig  {
       MemberCardComponent,
       MemberDetailComponent,
       MemberEditComponent,
-      PhotoEditorComponent
+      PhotoEditorComponent,
+      ValueComponent
    ],
    imports: [
       BrowserModule,

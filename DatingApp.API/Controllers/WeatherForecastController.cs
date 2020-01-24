@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 namespace DatingApp.API.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class WeatherForecastController : ControllerBase
     {
