@@ -1,0 +1,6 @@
+
+    "DefaultConnection": "Data Source=DatingApp.db" // Sql Lite
+
+    "DefaultConnection": "Server=localhost; Database=datingApp; Uid=appuser; Pwd=password" // MySql
+
+    "DefaultConnection": "Server=localhost; Database=datingApp; User Id=appuser; Password=password" // Sql Server

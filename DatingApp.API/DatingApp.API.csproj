@@ -8,11 +8,6 @@
     <Folder Include="wwwroot\"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0">
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="*"/>
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="*"/>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="*"/>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0"/>
@@ -20,5 +15,12 @@
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
     <PackageReference Include="CloudinaryDotNet" Version="1.9.1"/>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.1"/>
   </ItemGroup>
 </Project>
